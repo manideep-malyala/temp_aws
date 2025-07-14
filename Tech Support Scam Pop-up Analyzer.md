@@ -1,6 +1,6 @@
 
 
-**Tech Support Scam Pop-up Analyzer**
+### **Tech Support Scam Pop-up Analyzer**
 
 **Complexity Level:** Medium
 **Reasoning:** This use case introduces the image modality using a screenshot, enabling multimodal GenAI analysis. The image must be analyzed for embedded text, fake branding (e.g., Microsoft, Apple), and visual scam patterns. While OCR and visual analysis are straightforward with modern multimodal LLMs (e.g., Claude 3, GPT-4o), orchestrating it through AWS Bedrock Agents with Lambda and S3 offers both scalability and hackathon-friendly architecture.
